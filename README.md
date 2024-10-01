@@ -1,4 +1,20 @@
-# Getting Started with Create React App
+# Personal Portofolio
+
+Welcome to my web portfolio! This website is designed to showcase my work and expertise as a Front-End Developer. Here, you'll find projects I've worked on, and information about my experience in web development.
+
+## Tools Used
+
+React.js
+Node.js
+npm
+HTML5 & CSS
+Visal Code Studio
+
+### Author
+
+Dibuat dengan ❤️ oleh AndriXVII ('https://github.com/Andrixviii').
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
