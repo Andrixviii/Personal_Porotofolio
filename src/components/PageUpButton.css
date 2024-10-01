@@ -1,0 +1,34 @@
+.page-up-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+  }
+  
+  .page-up-button {
+    background-color: #484b4b;
+    color: white;
+    border: none;
+    border-radius: 10%;
+    padding: 10px 15px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: opacity 0.4s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .page-up-button:hover {
+    background-color: #353535;
+  }
+  
+  .page-up-button:focus {
+    outline: none;
+  }
+  
+  .page-up-button {
+    opacity: 1;
+  }
+  
+  .page-up-button.hidden {
+    opacity: 0;
+  }

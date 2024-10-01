@@ -1,0 +1,536 @@
+
+/* header content */
+.header {
+  width: 100%;
+  height: 260px;
+  border: 1px solid #373535;
+  background-image: url(/public/img/header-1.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1330px;
+  
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+
+
+.typed-text {
+  font-family: 'Quicksand', sans-serif;
+  color: rgb(247, 243, 243);
+  border-right: 2px solid silver;
+  padding-right: 5px;
+  white-space: nowrap;
+  font-size: 2.125rem; /* Sesuaikan ukuran teks */
+  animation: blink 0.7s infinite step-end;
+}
+
+/* Navbar Styling */
+.nav-container {
+  width: 100px;
+  height: auto;
+  display: inline;
+  
+}
+
+.nav-bar {
+  background-color: #2c2c2c;
+  height: 44px;
+  width: 35%; /* Membuat navbar penuh ke kanan dan kiri */
+  margin: -20px; /* Menghapus margin default */
+  padding: 0;
+  border-top-right-radius: 15px;
+}
+
+.nav-bar ul {
+  list-style-type: none;
+  margin: 52px;
+  padding: 11px;
+  text-align: left; /* Untuk membuat link navigasi berada di tengah */
+}
+
+.nav-bar ul li {
+  display: inline;
+  margin-right: 44px;
+}
+
+.nav-bar ul li a {
+  color: #b8b8b8;
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.nav-bar ul li a:hover {
+  text-decoration: none;
+  color: #e9e9e9; /* Soft hover effect */
+  border-radius: 10px;
+  
+}
+
+.logo-container {
+  cursor: pointer;
+  display: flex;               /* Use Flexbox for horizontal layout */
+  justify-content: center;     /* Center the logos horizontally */
+  align-items: center;         /* Align logos vertically in the middle */
+  margin-top: 40px;            /* Add space below the "Hai There" text */
+}
+
+.logo-header {
+  display: flex;
+  margin: 0 10px;              /* Add space between logos */
+  width: 35px;
+  height: 35px;
+  border-radius: 9px;          /* Rounded corners */
+  background-color: #b8b8b8;   /* Background color */
+  justify-content: center;     /* Center SVG inside the container */
+  align-items: center;         /* Center SVG inside the container */
+  padding: 2px;                /* Add some padding inside the container */
+}
+
+.logo-header svg {
+  width: 100%;                 /* Make the SVG fill the container */
+  height: 100%;
+}
+
+.container-flex{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.logo-header:hover {
+  transform: scale(1.20);
+  transition: 0.3s ease-in-out;
+}
+
+/* main content */
+.main {
+  width: 34%;
+  height: 1000px;
+  border: 1px solid #373535;
+  
+
+  box-shadow: inset 0 4px 8px rgba(255, 255, 255, 0.05), 0 10px 20px rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+
+.main h2 {
+  margin-left: 25px;
+}
+
+.main li {
+  margin-left: 20px;
+}
+
+.main svg {
+  margin-left: 20px;
+}
+
+.personal-detail {
+  margin-left: 30px;
+}
+
+.img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid #373535;
+  object-fit: cover;
+  margin-left: 25px;
+  margin-top: 33px;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  color: #d3d3d3;
+}
+
+.container p, li{
+  color: #d3d3d3;
+  font-family: 'open sans', sans-serif;
+  font-size: 0.813rem;
+  
+}
+
+.icon{
+  margin-right: 8px;
+}
+
+/* menu content */
+.menu {
+  width: 64%;
+  height: 1000px;
+  border: 1px solid #373535;
+
+  box-shadow: inset 0 4px 8px rgba(255, 255, 255, 0.05), 0 10px 20px rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+
+/* timeline */
+.timeline {
+  position: relative;
+  margin: 20px 0;
+  margin-left: 35px;
+  border-left: 2px solid #5b5959;
+}
+
+.timeline-item {
+  position: relative;
+  margin: 20px 0;
+  display: block;  /* Ubah dari flex ke block agar bisa menumpuk teks */
+  padding-left: 40px;  /* Tambahkan ruang untuk lingkaran */
+  overflow-wrap: break-word;
+}
+
+.right-text {
+  position: relative;
+  font-size: 0.875rem;
+  width: 100%;             /* Sesuaikan lebar dengan konten */
+  text-align: left;         /* Teks rata kiri */
+  padding-bottom: 10px;     /* Tambahkan jarak di bawah teks */
+  text-overflow: ellipsis;
+}
+
+
+.right-text h3 {
+  margin: 0;
+  font-size: 1rem;
+  color: aliceblue;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.right-text p {
+  margin-top: 5px;
+  font-size: 0.75rem;
+  color: #d3d3d3;             /* Warna deskripsi lebih soft */
+  line-height: 1.5;        /* Tambahkan jarak antar baris */
+  font-family: 'open sans', sans-serif;
+}
+
+.right-text li {
+  margin-top: 5px;
+}
+
+.circle {
+  position: absolute;
+  left: -10px;    /* Geser lingkaran ke kiri untuk kesejajaran */
+  top: 0;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: aliceblue;
+  border: 2px solid #5b5959;
+}
+
+.skill {
+  display: flex;
+  align-items: flex-start; /* Mengatur konten agar mulai dari kiri */
+  margin-left: 33px;
+  color: #373535;
+}
+.skill {
+  display: flex;
+  flex-wrap: wrap; /* Allows skills to wrap if they don't fit in one line */
+  color: #373535;
+}
+
+.skill p {
+  border: 2px solid #d3d3d3;
+  background-color: #d3d3d3;
+  padding: 5px;
+  display: inline-block;
+  margin: 5px;
+  border-radius: 8px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+/* new next slide */
+.about-me {
+  width: 100%;
+  height: 620px;
+  border: 1px solid #373535;
+
+  box-shadow: inset 0 4px 8px rgba(255, 255, 255, 0.05), 0 10px 20px rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+
+.about-me h2 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.about-me p {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #b8b8b8;
+  font-family: 'open sans', sans-serif;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 15px;
+}
+
+.project-container {
+  width: 100%;
+  height: 700px;
+  border: 1px solid #373535;
+
+  box-shadow: inset 0 4px 8px rgba(255, 255, 255, 0.05), 0 10px 20px rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+
+.project-container h2{
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+/* Section styling */
+.projects {
+  padding: 50px;
+  background-color: #161719;
+  color: aliceblue;
+  text-align: center;
+}
+
+.projects h2 {
+  margin-bottom: 50px;
+
+}
+
+/* Grid layout untuk galeri */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));  /* Responsif */
+  grid-gap: 10px;  /* Jarak antar kotak */
+  justify-items: center;
+  padding: 10px;
+}
+
+/* Setiap item dalam galeri */
+/* Struktur grid tetap sama seperti sebelumnya */
+
+/* Setiap item galeri */
+.gallery-item {
+  cursor: pointer;
+  position: relative;
+  border: 2px solid #d3d3d3;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #2c2c2c;
+}
+
+/* Bingkai tambahan untuk gambar */
+.frame {
+  border: 4px solid #ffffff; /* Warna bingkai putih atau sesuai keinginan */
+  padding: 5px;
+  background-color: #000000; /* Warna latar belakang bingkai, bisa disesuaikan */
+  border-radius: 8px; /* Bisa disesuaikan sesuai keinginan */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.frame img {
+  max-width: 100%;  /* Maksimal lebar 100% dari lebar bingkai */
+  max-height: 200px;  /* Maksimal tinggi gambar, misalnya 300px */
+  object-fit: cover;  /* Gambar memenuhi bingkai dengan proporsi tetap */
+  border-radius: 5px;  /* Memberikan sudut bulat jika diperlukan */
+}
+
+/* Judul proyek */
+.project-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 90%;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.849);
+  color: white;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1rem;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/* Hover effect */
+.gallery-item:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease-in-out;
+}
+
+
+.anime-container {
+  display: flex;
+  align-items: center;
+
+}
+
+.image-anime {
+  max-width: 300px; /* Adjust image size as needed */
+  max-height: 300px;
+  margin-left: 580.6px; /* This pushes the image to the right */
+  margin-top: -159px;
+  filter: drop-shadow(15px 5px 5px rgba(5, 5, 5, 0.5)); /* shadow image */
+}
+
+.image-anime2 {
+  max-width: 270px; /* Adjust image size as needed */
+  max-height: 270px;
+  margin-top: 60px;
+  filter: drop-shadow(20px 5px 5px rgba(5, 5, 5, 0.637)); /* shadow image */
+}
+
+
+/* Tampilan untuk perangkat berukuran lebih kecil dari 768px */
+@media (max-width: 768px) {
+  .header {
+    height: auto;  /* Tinggi disesuaikan dengan isi */
+    padding: 10px;
+  }
+  
+  .container-flex {
+    flex-direction: column;  /* Susun elemen secara vertikal di mobile */
+  }
+
+  .main, .menu {
+    width: 100%;    /* Lebar elemen memenuhi layar */
+    height: 990px;   /* Tinggi otomatis mengikuti konten */
+    margin-top: 20px;
+  }
+
+  .main h2 {
+      margin-left: 50px;
+  }
+
+  .main li{
+      margin-left: 55px;
+  }
+
+  .main svg {
+      margin-left: 45px;
+  }
+
+  .img{
+      margin-left: 52px;
+  }
+
+  .timeline-item {
+    padding-left: 30px; /* Ruang lebih sempit untuk lingkaran */
+  }
+
+  .right-text h3 {
+    font-size: 0.875rem;  /* Ukuran font lebih kecil untuk mobile */
+  }
+
+  .right-text p {
+    font-size: 0.75rem;
+  }
+
+  .circle {
+    left: -8px; /* Sesuaikan posisi lingkaran */
+    width: 12px;
+    height: 12px;
+  }
+
+  .skill {
+      flex-direction: row;   /* Susun skill secara vertikal di mobile */
+      align-items: center;      /* Letakkan skill di tengah layar */
+      margin-left: 30px;           /* Hilangkan margin kiri */
+  }
+
+  .skill p {
+      font-size: 0.75rem;          /* Ukuran font lebih kecil */
+      padding: 10px;
+      margin: 8px;
+      text-align: center;
+  }
+
+  .about-me p {
+      text-align: center;
+      margin: 10px;
+      padding: 5px;
+      font-size: 1rem;
+  }
+
+  .typed-text {
+      font-size: 1.75rem;
+  }
+
+  .gallery {
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Lebih kecil untuk layar mobile */
+  }
+
+  .frame img {
+      max-height: 150px;  /* Gambar lebih kecil di layar mobile */
+  }
+
+  .nav-bar {
+    width: 80%; /* Navbar menyesuaikan lebar layar penuh pada mobile */
+    height: 40px; /* Sesuaikan tinggi secara otomatis */
+    margin: -10px; /* Hilangkan margin negatif */
+    padding: 0;
+    border-top-right-radius: 20px; /* Hilangkan border radius di mobile */
+  }
+
+  .nav-bar ul {
+      margin: 50px;
+      padding: 10px;
+      text-align: left; /* Posisikan link navigasi di tengah untuk mobile */
+  }
+
+  .nav-bar ul li {
+      display: column; /* Ubah ke block agar vertikal */
+      margin: 15px; /* Spasi antar item menu */
+  }
+
+  .nav-bar ul li a {
+      font-size: 0.938rem; /* Perbesar teks untuk mobile */
+  }
+
+  .image-anime {
+    max-width: 250px; /* Adjust image size as needed */
+    max-height: 250px;
+    margin-left: 410.9px; /* This pushes the image to the right */
+    margin-top: -159px;
+  }
+
+  .image-anime2 {
+    max-width: 250px;
+    max-height: 250px;
+    margin-top: 146px;
+  }
+
+}
+
+@keyframes blink {
+  from, to {
+      border-color: transparent;
+  }
+  50% {
+      border-color: silver;
+  }
+}
