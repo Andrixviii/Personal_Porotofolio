@@ -70,7 +70,7 @@ function App() {
       {/* main area/ right area */}
       <div className="main" id='home'>
         <main>
-          <img className="img" src="./img/Waguri Kaoruko.jpeg" alt="..." />
+          <img className="img" src="./img/Waguri Kaoruko.jpeg" alt="..."/>
           <h2>PERSONAL DETAIL</h2>
           <div className="personal-detail">
             <div className="container">
@@ -152,13 +152,14 @@ function App() {
           <ul>
             <li>Javascript</li>
             <li>C++</li>
+
           </ul>
         </main>
       </div>
 
       {/* menu area/left content */}
-      <div className="menu" >
-        <menu>
+      <div className="menu-container" >
+        <menu className='menu'>
           <h2>EDUCATION</h2>
 
           <div className="timeline">
@@ -228,6 +229,7 @@ function App() {
           </div>
 
         <div className='skill-container'>
+
           <h2>HARD SKILL</h2>
           <div className="skill">
             <p>Web Development</p>
@@ -235,6 +237,7 @@ function App() {
             <p>CSS</p>
             <p>Excel</p>
           </div>
+
           <h2>SOFT SKILL</h2>
           <div className="skill">
             <p>Teamwork</p>
@@ -244,7 +247,7 @@ function App() {
         </div>
 
           <div className='anime-container'>
-            <img className='image-anime' src='./img/Raiden-Chibi.png'/>
+            <img className='image-anime' src='./img/Raiden-Chibi.png' alt='...'/>
           </div>
           
         </menu>
@@ -252,7 +255,7 @@ function App() {
     </div>
 
     {/* page about me */}
-    <div className="container-flex" id='about'> 
+    <div className="container-flex" id='about'>
 
       <div className="about-me">
        
@@ -264,7 +267,7 @@ function App() {
           </p>
 
         <div className='anime-container'>
-          <img className='image-anime2' src='./img/saber.png'/>
+          <img className='image-anime2' src='./img/saber.png' alt='...'/>
         </div>
 
       </div>
