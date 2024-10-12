@@ -426,6 +426,7 @@
   .header {
     height: auto;  /* Tinggi disesuaikan dengan isi */
     padding: 10px;
+    background-size: auto;
   }
  
   .container-flex {
