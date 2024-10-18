@@ -3,7 +3,7 @@
   width: 100%;
   height: auto;
   border: 1px solid #373535;
-  background-image: url(/public/img/city-night.jpg);
+  background-image: url(/public/img/444.gif);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -19,12 +19,12 @@
 
 
 .typed-text {
-  font-family: 'Quicksand', sans-serif;
-  color: rgb(247, 243, 243);
+  font-family: "Press Start 2P", system-ui;
+  color: rgb(255, 255, 255);
   border-right: 2px solid silver;
   padding-right: 5px;
   white-space: nowrap;
-  font-size: 2.125rem; /* Sesuaikan ukuran teks */
+  font-size: 2rem; /* Sesuaikan ukuran teks */
   animation: blink 0.7s infinite step-end;
 }
 
@@ -37,7 +37,7 @@
 }
 
 .nav-bar {
-  background-color: #2c2c2c;
+  background-color: #1f1c2c8c;
   height: 50px;
   width: 35%;
   margin: -20px;
@@ -452,7 +452,7 @@
   }
 
   .typed-text {
-    font-size: 1.5rem; /* Sesuaikan ukuran teks */
+    font-size: 14px; /* Sesuaikan ukuran teks */
   }
 
   .main p {
