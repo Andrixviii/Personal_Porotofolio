@@ -17,6 +17,27 @@
   box-sizing: border-box;
 }
 
+.main ul {
+  list-style-type: none;
+}
+
+.interest {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+}
+
+
+.interest-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icons{
+  margin-bottom: 8px;
+}
 
 .typed-text {
   font-family: "Press Start 2P", system-ui;
@@ -129,6 +150,7 @@
 
 .main li {
   margin-left: 20px;
+  
 }
 
 .main svg {
@@ -399,7 +421,7 @@
 .image-anime {
   position: absolute;
   right: 0;
-  bottom: -16px;
+  bottom: -110px; /*perkecil untuk merubah posisi*/
   max-width: 300px; /* Ukuran gambar */
   max-height: 260px; /* Tinggi maksimum */
   display: block;
@@ -466,12 +488,13 @@
   }
 
   .main li{
-      margin-left: 55px;
+      margin-left: 38px;
   }
 
   .main svg {
       margin-left: 45px;
   }
+
 
   .img{
       width: 160px;
@@ -638,7 +661,7 @@
   }
 
   .main li{
-    margin-left: 55px;
+    margin-left: 40px;
     font-size: 1.3rem;
   }
 
@@ -691,7 +714,7 @@
   .image-anime {
     position: absolute;
     right: 0;
-    bottom: -43px;
+    bottom: -167px;
     max-width: 400px;
     max-height: 360px;
     margin: -20px;
@@ -744,6 +767,16 @@
   .project-title {
     width: 90%;
     font-size: 1.5rem;
+  }
+
+  .icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .icons {
+    width: 35px;
+    height: 35px;
   }
   
   

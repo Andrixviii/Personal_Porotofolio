@@ -77,8 +77,8 @@ function App() {
               <svg
                 className="icon"
                 xmlns="http://www.w3.org/2000/svg"
-                width={16}
-                height={16}
+                width={20}
+                height={20}
                 fill="currentColor"
                 viewBox="0 0 16 16"
               >
@@ -94,8 +94,8 @@ function App() {
               <svg
                 className="icon"
                 xmlns="http://www.w3.org/2000/svg"
-                width={16}
-                height={16}
+                width={20}
+                height={20}
                 fill="currentColor"
                 viewBox="0 0 16 16"
               >
@@ -111,8 +111,8 @@ function App() {
               <svg
                 className="icon"
                 xmlns="http://www.w3.org/2000/svg"
-                width={16}
-                height={16}
+                width={20}
+                height={20}
                 fill="currentColor"
                 viewBox="0 0 16 16"
               >
@@ -128,8 +128,8 @@ function App() {
               <svg
                 className="icon"
                 xmlns="http://www.w3.org/2000/svg"
-                width={16}
-                height={16}
+                width={20}
+                height={20}
                 fill="currentColor"
                 viewBox="0 0 16 16"
               >
@@ -142,18 +142,41 @@ function App() {
               </p>
             </div>
           </div>
+
+        <div className='interest'>
           <h2>INTERESTS</h2>
           <ul>
-            <li>Game</li>
-            <li>Reading</li>
-            <li>Sport</li>
+            <li className='interest-item'>
+              <img src="./img/gamepad-svgrepo-com.svg" className='icons'></img>
+                Game
+            </li>
+
+            <li className='interest-item'>
+              <img src="./img/book-svgrepo-com.svg"  className='icons'></img>
+                Reading
+              </li>
+
+            <li className='interest-item'>
+              <img src="./img/sport-recreation-football-activity-ball-svgrepo-com.svg"  className='icons'></img>
+                Sport
+              </li>
           </ul>
+
           <h2>PROGRAMING LANGUAGES</h2>
           <ul>
-            <li>Javascript</li>
-            <li>C++</li>
+            <li className='interest-item'>
+              <img src="./img/javascript-svgrepo-com.svg " className='icons' ></img>
+                Javascript
+              </li>
+
+            <li className='interest-item'>
+              <img src="./img/cpp-svgrepo-com.svg" className='icons'></img>
+                C++
+              </li>
 
           </ul>
+        </div>
+
         </main>
       </div>
 
@@ -317,7 +340,7 @@ function App() {
 
     <footer className="container">
       <p>
-        © <span id="year">{new Date().getFullYear()} AndriXVII. All Rights Reserved.</span>
+        © <span id="year">{new Date().getFullYear()} AndriXVIII. All Rights Reserved.</span>
       </p>
     </footer>
   </>
